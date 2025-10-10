@@ -1,1 +1,37 @@
 # TFG-Antonio-Cordero
+La aplicación actual se pensó para hacer y administrar listas de compras. Esto es para que organizar las compras sea más fácil, individualmente y también cuando se comparte con otros. Este recurso fue diseñado para ser fácil de usar pero, al mismo tiempo, completo y funcional, lo cual asegura controlar los productos por comprar, lo que ya se compró, y quién es el responsable.Este sistema permite al usuario añadir productos a las listas de dos formas: manualmente escribiendo el nombre del artículo, o escaneando el código de barras en la versión de Android. Así, la información del producto se carga automáticamente, incluyendo nombre, marca y modelo.Adicionalmente, estas listas se podrán compartir con más usuarios usando su correo electrónico, transformando la aplicación en una herramienta muy útil, especialmente para la organización de compras en grupo en múltiples ocasiones como reuniones, fiestas o la vida diaria en casa. Estas listas compartidas grabarán quién agregó cada artículo y, cuando este sea comprado, también se mostrará quién lo hizo. Otra genial función es la posibilidad de poner observaciones o notas extra, perfectas para agregar detalles sobre la compra, como una marca particular o alguna recomendación. Además, la aplicación permite añadir el precio total de la lista. En listas compartidas, este precio total también servirá como base para calcular de forma automática cuánto debe pagar cada persona, facilitando así la división de los gastos.
+
+Cómo instalar la aplicación (versión Android)
+Instalación manual con archivo APK
+
+Solo si te dan el archivo .apk
+
+Entra en la configuración de tu celular.
+
+Ve a Seguridad o Aplicaciones.
+
+Activa la opción “Permitir aplicaciones de orígenes desconocidos”.
+
+Descarga el archivo .apk desde el enlace que te proporcionen.
+
+Una vez descargado, toca el archivo para instalarlo.
+
+Acepta los permisos que te pida y espera a que termine.
+
+Abre la app desde tu pantalla de inicio.
+
+Primeros pasos al abrir la app
+
+Crea tu cuenta o inicia sesión con tu correo electrónico.
+
+Crea tu primera lista de compras.
+
+Agrega productos:
+
+Escribiendo el nombre manualmente.
+
+Escaneando el código de barras (si estás en Android).
+
+Agrega notas o precios si lo deseas.
+
+Comparte la lista si quieres con otros usando su correo electrónico.
