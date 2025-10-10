@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <CheckBox
+            android:id="@+id/item_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp" />
+
+        <TextView
+            android:id="@+id/item_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:lineSpacingExtra="4dp" />
+
+        <ImageButton
+            android:id="@+id/delete_button"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_delete"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Eliminar"
+            android:padding="6dp" />
+
+    </LinearLayout>
+
+    <!-- Información del comprador (visible solo en listas compartidas) -->
+    <TextView
+        android:id="@+id/purchaser_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="2dp"
+        android:visibility="gone" />
+
+    <!-- Información de quién añadió el ítem -->
+    <TextView
+        android:id="@+id/added_by_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="1dp"
+        android:visibility="gone" />
+
+    <!-- Observación del ítem -->
+    <TextView
+        android:id="@+id/observation_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="2dp"
+        android:visibility="gone" />
+
+    <!-- Precio del ítem -->
+    <TextView
+        android:id="@+id/price_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="1dp"
+        android:visibility="gone" />
+
+</LinearLayout>
